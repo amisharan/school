@@ -6,6 +6,7 @@ import "react-multi-carousel/lib/styles.css";
 import image1 from "../Other images/Digital classroom.jpg";
 import image2 from "../Other images/GeotaggedSchoolPic.jpg";
 import image3 from "../Other images/Managers photo.jpg"
+import Image from "next/image";
 
 import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
