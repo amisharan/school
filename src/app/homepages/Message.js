@@ -7,8 +7,8 @@ export default function Message() {
     return (
         <Grid>
             <Typography> < MaximizeIcon sx={{ color: "#f59e0b" }} /></Typography>
-            <Typography sx={{ padding: "6px 14px", color: "#757575" }}> ABOUTN US</Typography>
-            <Grid container spacing={2} sx={{ backgroundColor: "#121858" }}>
+            <Typography sx={{ padding: "6px 14px", color: "#757575" }}> Message</Typography>
+            <Grid container spacing={2} sx={{ margin: 2, backgroundColor: "#121858", height: 370 }}>
 
 
                 <Grid item xs={12} md={6}>

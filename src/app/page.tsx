@@ -7,6 +7,8 @@ import About from "./homepages/About";
 import Facilities from "./homepages/Facilities"
 import Message from "./homepages/Message"
 import Gallery from "./homepages/Gallery"
+import Mission from "./aboutpage/Mission"
+import Missions from "./aboutpage/missions";
 
 export default function Home() {
   return (
@@ -19,6 +21,8 @@ export default function Home() {
       <Facilities />
       <Message />
       <Gallery />
+      <Mission />
+      <Missions />
     </div>
   );
 }
