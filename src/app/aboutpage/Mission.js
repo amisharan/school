@@ -4,7 +4,7 @@ import React from 'react'
 
 import Image from 'next/image'
 import image from "../Other images/mi.jpg"
-import { Box, Grid, Typography } from '@mui/material'
+import { Box, Typography } from '@mui/material'
 import Link from 'next/link'
 
 function Mission() {
@@ -42,7 +42,7 @@ function Mission() {
                     Mission Vision
                 </Typography>
             </Box>
-            <img scr={image} alt="sample" style={{ width: "100%", height: "70%", objectFit: "cover", display: "block" }} />
+            <Image src={image} alt="sample" style={{ width: "100%", height: "70%", objectFit: "cover", }} />
 
 
 

@@ -70,7 +70,7 @@ const Firstpage = () => {
                                     justifyContent: "center",
                                 }}
                             >
-                                <img
+                                <Image
                                     src={imageUrl}
                                     alt={`Slide ${index}`}
                                     loading="lazy"
