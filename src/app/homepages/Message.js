@@ -12,7 +12,8 @@ export default function Message() {
 
 
                 <Grid item xs={12} md={6}>
-                    <img
+
+                    <Image
                         src={image1}
                         alt="Library Image"
                         style={{
