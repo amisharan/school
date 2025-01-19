@@ -5,7 +5,7 @@ import MaximizeIcon from '@mui/icons-material/Maximize';
 
 export default function About() {
     return (
-        <Grid container spacing={2}>
+        <Grid container spacing={2} sx={{ padding: 8 }} >
             <Grid item xs={12} md={6} sx={{ padding: 6 }}>
                 <Typography> < MaximizeIcon sx={{ color: "#f59e0b" }} /></Typography>
                 <Typography sx={{ padding: "6px 14px", color: "#757575" }}> ABOUTN US</Typography>

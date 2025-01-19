@@ -38,11 +38,11 @@ function Mission() {
             }}>
                 <Link href="/" sx={{ color: 'black', textDecoration: 'none' }} >Home</Link >
                 <Link href="/about">  |  About</Link>
-                <Typography align="left" color="black" sx={{ textShadow: "2px 2px 4px rgba(0,0,0,0.7)", font: "bold", fontSize: "30px" }}>
+                <Typography align="left" color="black" sx={{ textShadow: "2px 2px 4px rgba(0,0,0,0.7)", font: "bold", fontSize: "35px" }}>
                     Mission Vision
                 </Typography>
             </Box>
-            <Image src={image} alt="sample" style={{ width: "100%", height: "70%", objectFit: "cover", }} />
+            <Image src={image} alt="sample" style={{ width: "100%", height: "50%", objectFit: "cover", }} />
 
 
 

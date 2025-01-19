@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import { Grid, Typography, Card, CardMedia, CardContent } from "@mui/material"
 

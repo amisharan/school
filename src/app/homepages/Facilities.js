@@ -38,16 +38,16 @@ const CardData = [
 
 function Facilities() {
     return (
-        <Box container spacing={2}>
+        <Box container spacing={2} sx={{ padding: 2, marginLeft: 6 }}>
             < MaximizeIcon sx={{ color: "#f59e0b" }} />
-            <Typography sx={{ padding: "6px 14px", color: "#757575" }}>OUR FACILITIES</Typography>
+            <Typography sx={{ color: "#757575" }}>OUR FACILITIES</Typography>
             <Box
                 display="flex"
                 justifyContent="center"
                 alignItems="center"
                 flexWrap="wrap"
-                gap={8}
-                p={4}
+                gap={6}
+                p={2}
 
 
             >
