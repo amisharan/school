@@ -5,9 +5,9 @@ import MaximizeIcon from '@mui/icons-material/Maximize';
 
 export default function Message() {
     return (
-        <Grid>
+        <Grid sx={{ marginLeft: { xs: 2, sm: 4, md: 6 } }}>
             <Typography> < MaximizeIcon sx={{ color: "#f59e0b" }} /></Typography>
-            <Typography sx={{ padding: "6px 14px", color: "#757575" }}> Message</Typography>
+            <Typography sx={{ color: "#757575" }}> MESSAGE</Typography>
             <Grid container spacing={2} sx={{ margin: 2, backgroundColor: "#121858", height: 370 }}>
 
 
@@ -17,8 +17,8 @@ export default function Message() {
                         src={image1}
                         alt="Library Image"
                         style={{
-                            width: '100%',
-                            height: 'auto',
+                            width: 600,
+                            height: 335,
                             borderRadius: '8px',
                             objectFit: 'cover',
                         }}
@@ -26,7 +26,7 @@ export default function Message() {
 
                 </Grid>
 
-                <Grid item xs={12} md={6} sx={{ padding: 6 }}>
+                <Grid item xs={12} md={6} sx={{ padding: 6, }}>
 
                     <Typography variant="h5" sx={{ color: "white" }}> Lalu Yadav Ji</Typography>
                     <Typography variant="h6" sx={{ color: "white" }} >Chairman</Typography>
@@ -34,7 +34,10 @@ export default function Message() {
                         My school has a large library with a wide selection of books on many subjects.
                         Twice a week, A school library is a place where students, teachers,
                         and staff can access a variety of resources to learn, study,
-                        and develop their skills. It can be a physical space or a virtual space.
+                        and develop their skills. My school has a large library with a wide selection of books on many subjects.
+                        Twice a week, A school library is a place where students, teachers,
+                        and staff can access a variety of resources to learn, study,
+                        and develop their skills .It can be a physical space or a virtual space.
                     </Typography>
                     <Button
                         variant="contained"
